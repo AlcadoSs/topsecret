@@ -31,7 +31,7 @@
      *****************/
 
 
-    const assetsUrl = 'https://raw.githubusercontent.com/mogyi006/gladiatus-script/master/assets';
+    const assetsUrl = 'https://raw.githubusercontent.com/AlcadoSs/topsecret/master/assets';
 
     let autoGoActive = sessionStorage.getItem('autoGoActive') === "true" ? true : false;
 
