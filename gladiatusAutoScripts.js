@@ -56,7 +56,7 @@
     let areaExpedition = "Udused mäed";
     let enemyExpedition = "Kerberos";
     let areaDungeon = "Jooksus";
-    let foodLocation = 513;
+    let foodLocation = "513";
 
     // Quests
 
