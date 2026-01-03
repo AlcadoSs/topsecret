@@ -52,11 +52,12 @@
     let safeMode = false;
     let nextEncounterTime = Number(localStorage.getItem('nextEncounter'));
 
+
     // User Choices
+    let foodLocation = "513";
     let areaExpedition = "Udused mäed";
     let enemyExpedition = "Kerberos";
     let areaDungeon = "Jooksus";
-    let foodLocation = "513";
 
     // Quests
 
@@ -197,6 +198,7 @@
     if (localStorage.getItem('saveGoldAmount')) {
         saveGoldAmount = Number(localStorage.getItem('saveGoldAmount'));
     }
+
 
     /*****************
      *  Translations  *
@@ -377,10 +379,7 @@
                 </span>
                 <span id="settingsHeader">${content.settings}</span>
                 <div id="settingsContent">
-                    <div
-                        id="expedition_settings"
-                        class="settings_box"
-                    >
+                    <div id="expedition_settings" class="settings_box">
                         <div class="settingsHeaderBig">${content.expedition}</div>
                         <div class="settingsSubcontent">
                             <div id="do_expedition_true" class="settingsButton">${content.yes}</div>
@@ -395,10 +394,7 @@
                         </div>
                     </div>
 
-                    <div
-                        id="dungeon_settings"
-                        class="settings_box"
-                    >
+                    <div id="dungeon_settings" class="settings_box">
                         <div class="settingsHeaderBig">${content.dungeon}</div>
                         <div class="settingsSubcontent">
                             <div id="do_dungeon_true" class="settingsButton">${content.yes}</div>
@@ -411,10 +407,7 @@
                         </div>
                     </div>
 
-                    <div
-                        id="arena_settings"
-                        class="settings_box"
-                    >
+                    <div id="arena_settings" class="settings_box">
                         <div class="settingsHeaderBig">${content.arena}</div>
                         <div class="settingsSubcontent">
                             <div id="do_arena_true" class="settingsButton">${content.yes}</div>
@@ -428,10 +421,7 @@
                         </div>
                     </div>
 
-                    <div
-                        id="circus_settings"
-                        class="settings_box"
-                    >
+                    <div id="circus_settings" class="settings_box">
                         <div class="settingsHeaderBig">${content.circusTurma}</div>
                         <div class="settingsSubcontent">
                             <div id="do_circus_true" class="settingsButton">${content.yes}</div>
@@ -445,10 +435,7 @@
                         </div>
                     </div>
 
-                    <div
-                        id="quests_settings"
-                        class="settings_box"
-                    >
+                    <div id="quests_settings" class="settings_box">
                         <div class="settingsHeaderBig">${content.quests}</div>
                         <div class="settingsSubcontent">
                             <div id="do_quests_true" class="settingsButton">${content.yes}</div>
@@ -466,10 +453,7 @@
                     </div>
                     
                      
-                    <div
-                        id="event_expedition_settings"
-                        class="settings_box"
-                    >
+                    <div id="event_expedition_settings" class="settings_box">
                         <div class="settingsHeaderBig">${content.eventExpedition}</div>
                         <div class="settingsSubcontent">
                             <div id="do_event_expedition_true" class="settingsButton">${content.yes}</div>
@@ -484,10 +468,7 @@
                         </div>
                     </div>
 
-                    <div
-                        id="food_settings"
-                        class="settings_box"
-                    >
+                    <div id="food_settings" class="settings_box">
                         <div class="settingsHeaderBig">${content.eatFood}</div>
                         <div class="settingsSubcontent">
                             <div id="eat_food_true" class="settingsButton">${content.yes}</div>
@@ -495,10 +476,7 @@
                         </div>
                     </div>
 
-                    <div
-                        id="gold_settings"
-                        class="settings_box"
-                    >
+                    <div id="gold_settings" class="settings_box">
                         <div class="settingsHeaderBig">${content.saveGold}</div>
                         <div class="settingsSubcontent">
                             <div id="save_gold_0" class="settingsButton">${content.no}</div>
@@ -755,6 +733,7 @@
             for (let i of ['0', '100', '250', '500']) {
                 $(`#save_gold_${i}`).addClass(saveGoldAmount / 1000 === Number(i) ? 'active' : 'inactive');
             }
+
         };
 
         setActiveButtons();
