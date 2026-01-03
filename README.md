@@ -1,5 +1,6 @@
 # Gladiatus Script
 
+Based on https://github.com/ebodziony/gladiatus-script and https://github.com/mogyi006/gladiatus-script
 * Automatization for gladiatus:
   - Auto expedition
   - Auto dungeon
@@ -20,7 +21,7 @@ Installation:
 ---------
 
 1. Install tampermonkey addon: http://tampermonkey.net/
-2. After installation click here: https://github.com/ebodziony/gladiatus-script/raw/master/gladiatus-script.user.js and press install.
+2. After installation click here: https://github.com/AlcadoSs/topsecret/blob/9c3b4527f004e73a0710c22d90702fb5eef0d840/gladiatusAutoScripts.js and press install.
 
 Usage:
 ---------
