@@ -5,12 +5,12 @@
 // @author       Top Secret
 // @match        *://*.gladiatus.gameforge.com/game/index.php*
 // @exclude      *://*.gladiatus.gameforge.com/game/index.php?mod=start
-// @downloadURL  https://github.com/AlcadoSs/topsecret/blob/9c3b4527f004e73a0710c22d90702fb5eef0d840/gladiatusAutoScripts.js
-// @updateURL    https://github.com/AlcadoSs/topsecret/blob/9c3b4527f004e73a0710c22d90702fb5eef0d840/gladiatusAutoScripts.js
+// @downloadURL  https://github.com/AlcadoSs/topsecret/raw/master/gladiatus-script.js
+// @updateURL    https://github.com/AlcadoSs/topsecret/raw/master/gladiatus-script.js
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
-// @resource     customCSS_global  https://github.com/AlcadoSs/topsecret/blob/9c3b4527f004e73a0710c22d90702fb5eef0d840/global.css
+// @resource     customCSS_global  https://raw.githubusercontent.com/AlcadoSs/topsecret/master/global.css
 // ==/UserScript==
 
 

@@ -11,7 +11,7 @@
 
 
 #settingsWindow {
-    height: 511px;
+    height: 711px;
     width: 538px;
     padding: 50px 40px;
     background-image: url('https://raw.githubusercontent.com/ebodziony/gladiatus-script/master/assets/settings.png');
@@ -85,7 +85,7 @@
     box-shadow: 0 0 0 1px #8e753f;
     font-size: 13px;
     background: #390301;
-    background: -moz-linear-gradient(top, #c3ab6f, #886933);
+    background: -moz-linear-gradient(#c3ab6f, #886933);
     background: linear-gradient(to bottom, #c3ab6f, #886933);
 }
 
