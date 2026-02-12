@@ -11,8 +11,8 @@
 
 
 #settingsWindow {
-    height: 511px;
-    width: 800px;
+    height: 811px;
+    width: 538px;
     padding: 50px 40px;
     background-image: url('https://raw.githubusercontent.com/AlcadoSs/topsecret/master/assets/settings.png');
     display: block;
@@ -174,3 +174,4 @@
     z-index: 900;
 
 }
+
